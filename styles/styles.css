@@ -1,0 +1,29 @@
+body {
+  background-color: #9DBEBB;
+  display: flex;
+  align-items: center;
+flex-direction: column;
+}
+
+.red {
+  background-color: #BE0909;
+  max-width: 609px;
+  width: 100%;
+  min-height: 594px;
+  font-family: 'roboto', sans-serif;
+   flex-direction: column;
+  justify-content: center;
+}
+
+.yellow {
+  background-color: #FFB039;
+  max-width: 345px;
+  width: 100%;
+  min-height: 594px; 
+  /* flex-wrap: wrap;  */
+}
+/* 
+input {
+
+  
+} */
