@@ -22,10 +22,10 @@ body {
 }
 
 /* .subject-card {
-  
+    justify-content: space-around;
 } */
 
-p, textarea, input {
+label, textarea, input {
   background-color: #BE0909;
   color: #FEFFFF;
   border: none;
@@ -45,6 +45,10 @@ button {
   width: 202px;
   height: 48px;
   border-radius: 20px;
+}
+
+button:hover {
+opacity: 0.9;
 }
 
 .duckpic {

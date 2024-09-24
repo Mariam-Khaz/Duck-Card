@@ -11,28 +11,55 @@
 <title>Duck-Card</title>
 </head>
 <body>
-  <form action="Duck-Card">
   <div class="main-card">
-
     <div class="red-card">
       <div class="subject-card">
-        <p>FULL NAME</p>
-        <input type="FULL NAME" id="fname" name="fname"><br>
-        <p>EMAIL</p>
-        <input type="email" placeholder="Your Email"><br>
-        <p>MESSAGE REGARDING</p>
-        <textarea name="MESSAGE REGARDING" id="regarding" cols="20" rows="1"></textarea><br>
-        <p>MESSAGE</p>
-        <textarea type="MESSAGE" placeholder="Your Message" cols="30" rows="3"></textarea><br><br>
-        <button type="submit">SEND MESSAGE</button><br>
+        <form action="Duck-Card" method="post">
+          <label for="fname">FULL NAME</label><br><br>
+          <input 
+            type="text" 
+            id="fname" 
+            name="fname"
+            placeholder="Your Full Name"
+            /><br><br>
+
+          <label for="email">EMAIL</label><br><br>
+          <input 
+            type="email"
+            id="email"
+            name="email" 
+            placeholder="Your Email" 
+            required
+            /><br><br>
+
+          <label for="regarding">MESSAGE REGARDING</label><br><br>
+          <textarea 
+            name="regarding"
+            id="regarding" 
+            cols="20" 
+            rows="1"
+            placeholder="Subject"
+            ></textarea><br><br>
+
+            <label for="Message">MESSAGE</label><br><br>
+            <textarea 
+              id="Message"
+              name="Message"
+              cols="30" 
+              rows="3"
+              placeholder="Your Message"
+              required
+              ></textarea
+              ><br /><br />
+              <button type="submit">SEND MESSAGE</button><br><br>
+        </form> 
         <div class="duckpic">
           <img src="images/duck.png">
         </div>
       </div>
-      <div class="yellow-box"></div>
+      <div class="yellow-box"></div>        
     </div>
-   
   </div>
-  </form>
+ 
 </body>
 </html>
